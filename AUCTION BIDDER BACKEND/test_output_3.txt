@@ -1,0 +1,475 @@
+﻿[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.springboot:AuctionBidder:jar:0.0.1-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.springframework.boot:spring-boot-starter-data-jpa:jar -> duplicate declaration of version (?) @ line 94, column 15
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.springframework.boot:spring-boot-starter-validation:jar -> duplicate declaration of version (?) @ line 110, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] --------------------< com.springboot:AuctionBidder >--------------------
+[INFO] Building AuctionBidder 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ AuctionBidder ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ AuctionBidder ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 44 source files with javac [debug parameters release 17] to target\classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ AuctionBidder ---
+[INFO] Copying 1 resource from src\test\resources to target\test-classes
+[INFO] 
+[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ AuctionBidder ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 3 source files with javac [debug parameters release 17] to target\test-classes
+[WARNING] /D:/Full Stack Project/AuctionBidder (1)/AuctionBidder/src/test/java/com/springboot/AuctionBidder/BidIntegrationTests.java:[49,52] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /D:/Full Stack Project/AuctionBidder (1)/AuctionBidder/src/test/java/com/springboot/AuctionBidder/BidIntegrationTests.java:[49,52] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /D:/Full Stack Project/AuctionBidder (1)/AuctionBidder/src/test/java/com/springboot/AuctionBidder/BidIntegrationTests.java:[49,52] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /D:/Full Stack Project/AuctionBidder (1)/AuctionBidder/src/test/java/com/springboot/AuctionBidder/BidIntegrationTests.java:[49,52] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[WARNING] /D:/Full Stack Project/AuctionBidder (1)/AuctionBidder/src/test/java/com/springboot/AuctionBidder/BidIntegrationTests.java:[49,52] org.springframework.boot.test.mock.mockito.MockBean in org.springframework.boot.test.mock.mockito has been deprecated and marked for removal
+[INFO] 
+[INFO] --- surefire:3.5.4:test (default-test) @ AuctionBidder ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.springboot.AuctionBidder.BidIntegrationTests
+21:52:58.782 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.springboot.AuctionBidder.BidIntegrationTests]: BidIntegrationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+21:52:59.123 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.springboot.AuctionBidder.AuctionBidderApplication for test class com.springboot.AuctionBidder.BidIntegrationTests
+21:52:59.559 [main] INFO org.springframework.boot.devtools.restart.RestartApplicationListener -- Restart disabled due to context in which it is running
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.9)
+
+2026-01-25T21:53:00.345+05:30  INFO 2744 --- [AuctionBidder] [           main] c.s.AuctionBidder.BidIntegrationTests    : Starting BidIntegrationTests using Java 17.0.14 with PID 2744 (started by Gokul in D:\Full Stack Project\AuctionBidder (1)\AuctionBidder)
+2026-01-25T21:53:00.348+05:30  INFO 2744 --- [AuctionBidder] [           main] c.s.AuctionBidder.BidIntegrationTests    : The following 1 profile is active: "test"
+2026-01-25T21:53:02.207+05:30  INFO 2744 --- [AuctionBidder] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-25T21:53:02.370+05:30  INFO 2744 --- [AuctionBidder] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 142 ms. Found 3 JPA repository interfaces.
+2026-01-25T21:53:05.650+05:30  INFO 2744 --- [AuctionBidder] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-25T21:53:05.826+05:30  INFO 2744 --- [AuctionBidder] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.39.Final
+2026-01-25T21:53:05.957+05:30  INFO 2744 --- [AuctionBidder] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-01-25T21:53:06.380+05:30  INFO 2744 --- [AuctionBidder] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-25T21:53:06.485+05:30  INFO 2744 --- [AuctionBidder] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-01-25T21:53:06.993+05:30  INFO 2744 --- [AuctionBidder] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2026-01-25T21:53:06.999+05:30  INFO 2744 --- [AuctionBidder] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-01-25T21:53:07.062+05:30  WARN 2744 --- [AuctionBidder] [           main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-01-25T21:53:07.158+05:30  INFO 2744 --- [AuctionBidder] [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-25T21:53:09.842+05:30  INFO 2744 --- [AuctionBidder] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+Hibernate: drop table if exists auction cascade 
+Hibernate: drop table if exists bid cascade 
+Hibernate: drop table if exists refreshtoken cascade 
+Hibernate: drop table if exists user_roles cascade 
+Hibernate: drop table if exists users cascade 
+Hibernate: create table auction (current_high_bid numeric(38,2), starting_price float(53), auction_end_time timestamp(6), auction_id bigint generated by default as identity, auction_start_time timestamp(6) not null, user_id bigint, version bigint, auction_type varchar(255), description varchar(255), status enum ('ENDED','LIVE','UPCOMING'), primary key (auction_id))
+Hibernate: create table bid (amount numeric(38,2) not null, auction_auction_id bigint, bid_time timestamp(6) not null, id bigint generated by default as identity, user_id bigint not null, primary key (id))
+Hibernate: create table refreshtoken (revoked boolean not null, expiry_date timestamp(6) with time zone, id bigint generated by default as identity, user_id bigint not null, token varchar(255) not null unique, primary key (id))
+Hibernate: create table user_roles (user_id bigint not null, role enum ('ROLE_ADMIN','ROLE_USER'))
+Hibernate: create table users (id bigint generated by default as identity, email varchar(255) not null unique, name varchar(255) not null, password varchar(255) not null, primary key (id))
+Hibernate: alter table if exists auction add constraint FKcxad6q7j0t9h2vb60q74o4np0 foreign key (user_id) references users
+Hibernate: alter table if exists bid add constraint FKmyoe5fh1y4iq63bdeadtfcdkf foreign key (auction_auction_id) references auction
+Hibernate: alter table if exists bid add constraint FKi1pwg1muxilapowsmifod8jtf foreign key (user_id) references users
+Hibernate: alter table if exists refreshtoken add constraint FKa652xrdji49m4isx38pp4p80p foreign key (user_id) references users
+Hibernate: alter table if exists user_roles add constraint FKhfh9dx7w3ubf1co1vdev94g3f foreign key (user_id) references users
+2026-01-25T21:53:09.995+05:30  INFO 2744 --- [AuctionBidder] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-25T21:53:11.130+05:30  INFO 2744 --- [AuctionBidder] [           main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetail
+2026-01-25T21:53:11.444+05:30  WARN 2744 --- [AuctionBidder] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-25T21:53:13.497+05:30  INFO 2744 --- [AuctionBidder] [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-01-25T21:53:13.498+05:30  INFO 2744 --- [AuctionBidder] [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-01-25T21:53:13.500+05:30  INFO 2744 --- [AuctionBidder] [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2026-01-25T21:53:13.545+05:30  INFO 2744 --- [AuctionBidder] [           main] o.s.m.s.b.SimpleBrokerMessageHandler     : Starting...
+2026-01-25T21:53:13.546+05:30  INFO 2744 --- [AuctionBidder] [           main] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@56394880]]
+2026-01-25T21:53:13.549+05:30  INFO 2744 --- [AuctionBidder] [           main] o.s.m.s.b.SimpleBrokerMessageHandler     : Started.
+2026-01-25T21:53:13.577+05:30  INFO 2744 --- [AuctionBidder] [           main] c.s.AuctionBidder.BidIntegrationTests    : Started BidIntegrationTests in 14.057 seconds (process running for 16.355)
+Hibernate: select b1_0.id,b1_0.amount,b1_0.auction_auction_id,b1_0.bid_time,b1_0.user_id from bid b1_0
+Hibernate: select a1_0.auction_id,a1_0.auction_end_time,a1_0.auction_start_time,a1_0.auction_type,a1_0.user_id,a1_0.current_high_bid,a1_0.description,a1_0.starting_price,a1_0.status,a1_0.version from auction a1_0 where a1_0.auction_end_time<? and a1_0.status=?
+Hibernate: select a1_0.auction_id,a1_0.auction_end_time,a1_0.auction_start_time,a1_0.auction_type,a1_0.user_id,a1_0.current_high_bid,a1_0.description,a1_0.starting_price,a1_0.status,a1_0.version from auction a1_0
+Hibernate: select u1_0.id,u1_0.email,u1_0.name,u1_0.password from users u1_0
+Hibernate: insert into users (email,name,password,id) values (?,?,?,default)
+Hibernate: insert into user_roles (user_id,role) values (?,?)
+Hibernate: insert into users (email,name,password,id) values (?,?,?,default)
+Hibernate: insert into user_roles (user_id,role) values (?,?)
+Hibernate: insert into auction (auction_end_time,auction_start_time,auction_type,user_id,current_high_bid,description,starting_price,status,version,auction_id) values (?,?,?,?,?,?,?,?,?,default)
+Hibernate: select u1_0.id,u1_0.email,u1_0.name,u1_0.password from users u1_0 where u1_0.email=?
+Hibernate: select r1_0.user_id,r1_0.role from user_roles r1_0 where r1_0.user_id=?
+Hibernate: select a1_0.auction_id,a1_0.auction_end_time,a1_0.auction_start_time,a1_0.auction_type,a1_0.user_id,a1_0.current_high_bid,a1_0.description,a1_0.starting_price,a1_0.status,a1_0.version from auction a1_0 where a1_0.auction_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.name,u1_0.password from users u1_0 where u1_0.email=?
+Hibernate: select r1_0.user_id,r1_0.role from user_roles r1_0 where r1_0.user_id=?
+Hibernate: insert into bid (amount,auction_auction_id,bid_time,user_id,id) values (?,?,?,?,default)
+Hibernate: update auction set auction_end_time=?,auction_start_time=?,auction_type=?,user_id=?,current_high_bid=?,description=?,starting_price=?,status=?,version=? where auction_id=? and version=?
+Hibernate: insert into users (email,name,password,id) values (?,?,?,default)
+Hibernate: insert into user_roles (user_id,role) values (?,?)
+Hibernate: select u1_0.id,u1_0.email,u1_0.name,u1_0.password from users u1_0 where u1_0.email=?
+Hibernate: select r1_0.user_id,r1_0.role from user_roles r1_0 where r1_0.user_id=?
+Hibernate: select a1_0.auction_id,a1_0.auction_end_time,a1_0.auction_start_time,a1_0.auction_type,a1_0.user_id,a1_0.current_high_bid,a1_0.description,a1_0.starting_price,a1_0.status,a1_0.version from auction a1_0 where a1_0.auction_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.name,u1_0.password from users u1_0 where u1_0.email=?
+Hibernate: select r1_0.user_id,r1_0.role from user_roles r1_0 where r1_0.user_id=?
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /bids/1
+       Parameters = {amount=[1100.0]}
+          Headers = [Authorization:"Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6WyJST0xFX1VTRVIiXSwic3ViIjoidGVzdHVzZXJAZXhhbXBsZS5jb20iLCJpYXQiOjE3NjkzNTgxOTQsImV4cCI6MTc2OTM2MTc5NH0.7LuNDGBLSXVUGE45qpNNWmX48R_iuIZmrBRuPKM2Bus"]
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = com.springboot.AuctionBidder.Controller.BidController
+           Method = com.springboot.AuctionBidder.Controller.BidController#placeBid(Long, BigDecimal, Principal)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers", Content-Type:"application/json", X-Content-Type-Options:"nosniff", X-XSS-Protection:"0", Cache-Control:"no-cache, no-store, max-age=0, must-revalidate", Pragma:"no-cache", Expires:"0", X-Frame-Options:"DENY"]
+     Content type = application/json
+             Body = {"id":1,"amount":1100.0,"bidder":{"id":1,"name":"Test User","email":"testuser@example.com","roles":["ROLE_USER"]},"auction":{"auctionId":1,"auctionType":"Electronics","description":"Test Auction","startingPrice":1000.0,"currentHighBid":1100.0,"status":"LIVE","auctionStartTime":"2026-01-25T20:53:14.315098","auctionEndTime":"2026-01-25T23:53:14.315098"},"bidTime":"2026-01-25T21:53:14.6489714"}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /bids/1
+       Parameters = {amount=[1150.0]}
+          Headers = [Authorization:"Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6WyJST0xFX1VTRVIiXSwic3ViIjoidXNlcjJAZXhhbXBsZS5jb20iLCJpYXQiOjE3NjkzNTgxOTQsImV4cCI6MTc2OTM2MTc5NH0.re-E4Rp1dRCO951juZ0Q4CprkTnGUcXGwDGoikXVULI"]
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = com.springboot.AuctionBidder.Controller.BidController
+           Method = com.springboot.AuctionBidder.Controller.BidController#placeBid(Long, BigDecimal, Principal)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = java.lang.RuntimeException
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 500
+    Error message = null
+          Headers = [Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers", Content-Type:"application/json", X-Content-Type-Options:"nosniff", X-XSS-Protection:"0", Cache-Control:"no-cache, no-store, max-age=0, must-revalidate", Pragma:"no-cache", Expires:"0", X-Frame-Options:"DENY"]
+     Content type = application/json
+             Body = {"status":500,"error":"Internal Server Error","message":"Bid must be at least 1200.00","path":"/bids/1","timestamp":"2026-01-25T21:53:14.861708"}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+Hibernate: select b1_0.id,b1_0.amount,b1_0.auction_auction_id,b1_0.bid_time,b1_0.user_id from bid b1_0
+Hibernate: select a1_0.auction_id,a1_0.auction_end_time,a1_0.auction_start_time,a1_0.auction_type,a1_0.user_id,a1_0.current_high_bid,a1_0.description,a1_0.starting_price,a1_0.status,a1_0.version from auction a1_0 where a1_0.auction_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.name,u1_0.password,r1_0.user_id,r1_0.role from users u1_0 left join user_roles r1_0 on u1_0.id=r1_0.user_id where u1_0.id=?
+Hibernate: delete from bid where id=?
+Hibernate: select a1_0.auction_id,a1_0.auction_end_time,a1_0.auction_start_time,a1_0.auction_type,a1_0.user_id,a1_0.current_high_bid,a1_0.description,a1_0.starting_price,a1_0.status,a1_0.version from auction a1_0
+Hibernate: delete from auction where auction_id=? and version=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.name,u1_0.password from users u1_0
+Hibernate: select r1_0.user_id,r1_0.role from user_roles r1_0 where r1_0.user_id=?
+Hibernate: select r1_0.user_id,r1_0.role from user_roles r1_0 where r1_0.user_id=?
+Hibernate: select r1_0.user_id,r1_0.role from user_roles r1_0 where r1_0.user_id=?
+Hibernate: delete from user_roles where user_id=?
+Hibernate: delete from user_roles where user_id=?
+Hibernate: delete from user_roles where user_id=?
+Hibernate: delete from users where id=?
+Hibernate: delete from users where id=?
+Hibernate: delete from users where id=?
+Hibernate: insert into users (email,name,password,id) values (?,?,?,default)
+Hibernate: insert into user_roles (user_id,role) values (?,?)
+Hibernate: insert into users (email,name,password,id) values (?,?,?,default)
+Hibernate: insert into user_roles (user_id,role) values (?,?)
+Hibernate: insert into auction (auction_end_time,auction_start_time,auction_type,user_id,current_high_bid,description,starting_price,status,version,auction_id) values (?,?,?,?,?,?,?,?,?,default)
+Hibernate: select u1_0.id,u1_0.email,u1_0.name,u1_0.password from users u1_0 where u1_0.email=?
+Hibernate: select r1_0.user_id,r1_0.role from user_roles r1_0 where r1_0.user_id=?
+Hibernate: select a1_0.auction_id,a1_0.auction_end_time,a1_0.auction_start_time,a1_0.auction_type,a1_0.user_id,a1_0.current_high_bid,a1_0.description,a1_0.starting_price,a1_0.status,a1_0.version from auction a1_0 where a1_0.auction_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.name,u1_0.password from users u1_0 where u1_0.email=?
+Hibernate: select r1_0.user_id,r1_0.role from user_roles r1_0 where r1_0.user_id=?
+Hibernate: insert into bid (amount,auction_auction_id,bid_time,user_id,id) values (?,?,?,?,default)
+Hibernate: update auction set auction_end_time=?,auction_start_time=?,auction_type=?,user_id=?,current_high_bid=?,description=?,starting_price=?,status=?,version=? where auction_id=? and version=?
+Hibernate: select b1_0.id,b1_0.amount,b1_0.auction_auction_id,b1_0.bid_time,b1_0.user_id from bid b1_0
+Hibernate: select a1_0.auction_id,a1_0.auction_end_time,a1_0.auction_start_time,a1_0.auction_type,a1_0.user_id,a1_0.current_high_bid,a1_0.description,a1_0.starting_price,a1_0.status,a1_0.version from auction a1_0 where a1_0.auction_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.name,u1_0.password,r1_0.user_id,r1_0.role from users u1_0 left join user_roles r1_0 on u1_0.id=r1_0.user_id where u1_0.id=?
+Hibernate: delete from bid where id=?
+Hibernate: select a1_0.auction_id,a1_0.auction_end_time,a1_0.auction_start_time,a1_0.auction_type,a1_0.user_id,a1_0.current_high_bid,a1_0.description,a1_0.starting_price,a1_0.status,a1_0.version from auction a1_0
+Hibernate: delete from auction where auction_id=? and version=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.name,u1_0.password from users u1_0
+Hibernate: select r1_0.user_id,r1_0.role from user_roles r1_0 where r1_0.user_id=?
+Hibernate: select r1_0.user_id,r1_0.role from user_roles r1_0 where r1_0.user_id=?
+Hibernate: delete from user_roles where user_id=?
+Hibernate: delete from user_roles where user_id=?
+Hibernate: delete from users where id=?
+Hibernate: delete from users where id=?
+Hibernate: insert into users (email,name,password,id) values (?,?,?,default)
+Hibernate: insert into user_roles (user_id,role) values (?,?)
+Hibernate: insert into users (email,name,password,id) values (?,?,?,default)
+Hibernate: insert into user_roles (user_id,role) values (?,?)
+Hibernate: insert into auction (auction_end_time,auction_start_time,auction_type,user_id,current_high_bid,description,starting_price,status,version,auction_id) values (?,?,?,?,?,?,?,?,?,default)
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /bids/3
+       Parameters = {amount=[1100.0]}
+          Headers = [Content-Type:"application/json;charset=UTF-8"]
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = null
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 403
+    Error message = Forbidden
+          Headers = [Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers", X-Content-Type-Options:"nosniff", X-XSS-Protection:"0", Cache-Control:"no-cache, no-store, max-age=0, must-revalidate", Pragma:"no-cache", Expires:"0", X-Frame-Options:"DENY"]
+     Content type = null
+             Body = 
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+Hibernate: select b1_0.id,b1_0.amount,b1_0.auction_auction_id,b1_0.bid_time,b1_0.user_id from bid b1_0
+Hibernate: select a1_0.auction_id,a1_0.auction_end_time,a1_0.auction_start_time,a1_0.auction_type,a1_0.user_id,a1_0.current_high_bid,a1_0.description,a1_0.starting_price,a1_0.status,a1_0.version from auction a1_0
+Hibernate: delete from auction where auction_id=? and version=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.name,u1_0.password from users u1_0
+Hibernate: select r1_0.user_id,r1_0.role from user_roles r1_0 where r1_0.user_id=?
+Hibernate: select r1_0.user_id,r1_0.role from user_roles r1_0 where r1_0.user_id=?
+Hibernate: delete from user_roles where user_id=?
+Hibernate: delete from user_roles where user_id=?
+Hibernate: delete from users where id=?
+Hibernate: delete from users where id=?
+Hibernate: insert into users (email,name,password,id) values (?,?,?,default)
+Hibernate: insert into user_roles (user_id,role) values (?,?)
+Hibernate: insert into users (email,name,password,id) values (?,?,?,default)
+Hibernate: insert into user_roles (user_id,role) values (?,?)
+Hibernate: insert into auction (auction_end_time,auction_start_time,auction_type,user_id,current_high_bid,description,starting_price,status,version,auction_id) values (?,?,?,?,?,?,?,?,?,default)
+Hibernate: select u1_0.id,u1_0.email,u1_0.name,u1_0.password from users u1_0 where u1_0.email=?
+Hibernate: select r1_0.user_id,r1_0.role from user_roles r1_0 where r1_0.user_id=?
+Hibernate: select a1_0.auction_id,a1_0.auction_end_time,a1_0.auction_start_time,a1_0.auction_type,a1_0.user_id,a1_0.current_high_bid,a1_0.description,a1_0.starting_price,a1_0.status,a1_0.version from auction a1_0 where a1_0.auction_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.name,u1_0.password from users u1_0 where u1_0.email=?
+Hibernate: select r1_0.user_id,r1_0.role from user_roles r1_0 where r1_0.user_id=?
+Hibernate: insert into bid (amount,auction_auction_id,bid_time,user_id,id) values (?,?,?,?,default)
+Hibernate: update auction set auction_end_time=?,auction_start_time=?,auction_type=?,user_id=?,current_high_bid=?,description=?,starting_price=?,status=?,version=? where auction_id=? and version=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.name,u1_0.password from users u1_0 where u1_0.email=?
+Hibernate: select r1_0.user_id,r1_0.role from user_roles r1_0 where r1_0.user_id=?
+Hibernate: select b1_0.id,b1_0.amount,b1_0.auction_auction_id,b1_0.bid_time,b1_0.user_id from bid b1_0 left join auction a1_0 on a1_0.auction_id=b1_0.auction_auction_id where a1_0.auction_id=? order by b1_0.amount desc
+Hibernate: select a1_0.auction_id,a1_0.auction_end_time,a1_0.auction_start_time,a1_0.auction_type,a1_0.user_id,a1_0.current_high_bid,a1_0.description,a1_0.starting_price,a1_0.status,a1_0.version from auction a1_0 where a1_0.auction_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.name,u1_0.password,r1_0.user_id,r1_0.role from users u1_0 left join user_roles r1_0 on u1_0.id=r1_0.user_id where u1_0.id=?
+Hibernate: select b1_0.id,b1_0.amount,b1_0.auction_auction_id,b1_0.bid_time,b1_0.user_id from bid b1_0
+Hibernate: select a1_0.auction_id,a1_0.auction_end_time,a1_0.auction_start_time,a1_0.auction_type,a1_0.user_id,a1_0.current_high_bid,a1_0.description,a1_0.starting_price,a1_0.status,a1_0.version from auction a1_0 where a1_0.auction_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.name,u1_0.password,r1_0.user_id,r1_0.role from users u1_0 left join user_roles r1_0 on u1_0.id=r1_0.user_id where u1_0.id=?
+Hibernate: delete from bid where id=?
+Hibernate: select a1_0.auction_id,a1_0.auction_end_time,a1_0.auction_start_time,a1_0.auction_type,a1_0.user_id,a1_0.current_high_bid,a1_0.description,a1_0.starting_price,a1_0.status,a1_0.version from auction a1_0
+Hibernate: delete from auction where auction_id=? and version=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.name,u1_0.password from users u1_0
+Hibernate: select r1_0.user_id,r1_0.role from user_roles r1_0 where r1_0.user_id=?
+Hibernate: select r1_0.user_id,r1_0.role from user_roles r1_0 where r1_0.user_id=?
+Hibernate: delete from user_roles where user_id=?
+Hibernate: delete from user_roles where user_id=?
+Hibernate: delete from users where id=?
+Hibernate: delete from users where id=?
+Hibernate: insert into users (email,name,password,id) values (?,?,?,default)
+Hibernate: insert into user_roles (user_id,role) values (?,?)
+Hibernate: insert into users (email,name,password,id) values (?,?,?,default)
+Hibernate: insert into user_roles (user_id,role) values (?,?)
+Hibernate: insert into auction (auction_end_time,auction_start_time,auction_type,user_id,current_high_bid,description,starting_price,status,version,auction_id) values (?,?,?,?,?,?,?,?,?,default)
+Hibernate: select u1_0.id,u1_0.email,u1_0.name,u1_0.password from users u1_0 where u1_0.email=?
+Hibernate: select r1_0.user_id,r1_0.role from user_roles r1_0 where r1_0.user_id=?
+Hibernate: select a1_0.auction_id,a1_0.auction_end_time,a1_0.auction_start_time,a1_0.auction_type,a1_0.user_id,a1_0.current_high_bid,a1_0.description,a1_0.starting_price,a1_0.status,a1_0.version from auction a1_0 where a1_0.auction_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.name,u1_0.password from users u1_0 where u1_0.email=?
+Hibernate: select r1_0.user_id,r1_0.role from user_roles r1_0 where r1_0.user_id=?
+Hibernate: insert into bid (amount,auction_auction_id,bid_time,user_id,id) values (?,?,?,?,default)
+Hibernate: update auction set auction_end_time=?,auction_start_time=?,auction_type=?,user_id=?,current_high_bid=?,description=?,starting_price=?,status=?,version=? where auction_id=? and version=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.name,u1_0.password from users u1_0 where u1_0.email=?
+Hibernate: select r1_0.user_id,r1_0.role from user_roles r1_0 where r1_0.user_id=?
+Hibernate: select a1_0.auction_id,a1_0.auction_end_time,a1_0.auction_start_time,a1_0.auction_type,a1_0.user_id,a1_0.current_high_bid,a1_0.description,a1_0.starting_price,a1_0.status,a1_0.version from auction a1_0 where a1_0.auction_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.name,u1_0.password from users u1_0 where u1_0.email=?
+Hibernate: select r1_0.user_id,r1_0.role from user_roles r1_0 where r1_0.user_id=?
+Hibernate: insert into bid (amount,auction_auction_id,bid_time,user_id,id) values (?,?,?,?,default)
+Hibernate: update auction set auction_end_time=?,auction_start_time=?,auction_type=?,user_id=?,current_high_bid=?,description=?,starting_price=?,status=?,version=? where auction_id=? and version=?
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /bids/5
+       Parameters = {amount=[1100.0]}
+          Headers = [Authorization:"Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6WyJST0xFX1VTRVIiXSwic3ViIjoidGVzdHVzZXJAZXhhbXBsZS5jb20iLCJpYXQiOjE3NjkzNTgxOTUsImV4cCI6MTc2OTM2MTc5NX0.BDZlsFW_hsGyomv9mdlWQTCVksxHsU8ZIhlXP77jUmg"]
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = com.springboot.AuctionBidder.Controller.BidController
+           Method = com.springboot.AuctionBidder.Controller.BidController#placeBid(Long, BigDecimal, Principal)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers", Content-Type:"application/json", X-Content-Type-Options:"nosniff", X-XSS-Protection:"0", Cache-Control:"no-cache, no-store, max-age=0, must-revalidate", Pragma:"no-cache", Expires:"0", X-Frame-Options:"DENY"]
+     Content type = application/json
+             Body = {"id":4,"amount":1100.0,"bidder":{"id":10,"name":"Test User","email":"testuser@example.com","roles":["ROLE_USER"]},"auction":{"auctionId":5,"auctionType":"Electronics","description":"Test Auction","startingPrice":1000.0,"currentHighBid":1100.0,"status":"LIVE","auctionStartTime":"2026-01-25T20:53:15.310525","auctionEndTime":"2026-01-25T23:53:15.310525"},"bidTime":"2026-01-25T21:53:15.3392261"}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /bids/5
+       Parameters = {amount=[1200.0]}
+          Headers = [Authorization:"Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6WyJST0xFX0FETUlOIl0sInN1YiI6ImFkbWluQGV4YW1wbGUuY29tIiwiaWF0IjoxNzY5MzU4MTk1LCJleHAiOjE3NjkzNjE3OTV9.8Avkl9czMEzZiTXQTjFPsScmoT5eV2msl6wcsbeR7Oc"]
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = com.springboot.AuctionBidder.Controller.BidController
+           Method = com.springboot.AuctionBidder.Controller.BidController#placeBid(Long, BigDecimal, Principal)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = org.springframework.http.converter.HttpMessageConversionException
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 500
+    Error message = null
+          Headers = [Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers", X-Content-Type-Options:"nosniff", X-XSS-Protection:"0", Cache-Control:"no-cache, no-store, max-age=0, must-revalidate", Pragma:"no-cache", Expires:"0", X-Frame-Options:"DENY"]
+     Content type = application/json
+             Body = {"status":500,"error":"Internal Server Error","message":"Type definition error: [simple type, class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor]","path":"/bids/5","timestamp":"2026-01-25T21:53:15.3941444"}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+[ERROR] Tests run: 5, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 16.91 s <<< FAILURE! -- in com.springboot.AuctionBidder.BidIntegrationTests
+[ERROR] com.springboot.AuctionBidder.BidIntegrationTests.testPlaceBidBelowMinimumIncrement -- Time elapsed: 1.287 s <<< FAILURE!
+java.lang.AssertionError: Status expected:<400> but was:<500>
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:61)
+	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:128)
+	at org.springframework.test.web.servlet.result.StatusResultMatchers.lambda$matcher$9(StatusResultMatchers.java:640)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:214)
+	at com.springboot.AuctionBidder.BidIntegrationTests.testPlaceBidBelowMinimumIncrement(BidIntegrationTests.java:139)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+[ERROR] com.springboot.AuctionBidder.BidIntegrationTests.testPlaceBidWithoutToken -- Time elapsed: 0.051 s <<< FAILURE!
+java.lang.AssertionError: Status expected:<401> but was:<403>
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:61)
+	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:128)
+	at org.springframework.test.web.servlet.result.StatusResultMatchers.lambda$matcher$9(StatusResultMatchers.java:640)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:214)
+	at com.springboot.AuctionBidder.BidIntegrationTests.testPlaceBidWithoutToken(BidIntegrationTests.java:113)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+[ERROR] com.springboot.AuctionBidder.BidIntegrationTests.testPlaceBid_Sequential -- Time elapsed: 0.125 s <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<500>
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:61)
+	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:128)
+	at org.springframework.test.web.servlet.result.StatusResultMatchers.lambda$matcher$9(StatusResultMatchers.java:640)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:214)
+	at com.springboot.AuctionBidder.BidIntegrationTests.testPlaceBid_Sequential(BidIntegrationTests.java:170)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   BidIntegrationTests.testPlaceBidBelowMinimumIncrement:139 Status expected:<400> but was:<500>
+[ERROR]   BidIntegrationTests.testPlaceBidWithoutToken:113 Status expected:<401> but was:<403>
+[ERROR]   BidIntegrationTests.testPlaceBid_Sequential:170 Status expected:<200> but was:<500>
+[INFO] 
+[ERROR] Tests run: 5, Failures: 3, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  29.730 s
+[INFO] Finished at: 2026-01-25T21:53:15+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.5.4:test (default-test) on project AuctionBidder: There are test failures.
+[ERROR] 
+[ERROR] See D:\Full Stack Project\AuctionBidder (1)\AuctionBidder\target\surefire-reports for the individual test results.
+[ERROR] See dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
